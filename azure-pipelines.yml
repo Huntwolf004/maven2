@@ -6,7 +6,7 @@ trigger:
 - master
 
 pool:
-  name: Adithya
+  name: ADITHYA
   demands:
     - agent.name -equals Adithya
   vmImage: ubuntu-latest
