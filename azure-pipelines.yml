@@ -6,9 +6,9 @@ trigger:
 - master
 
 pool:
-  name: DRUNKENWOLF
+  name: Default
   demands:
-    - agent.name -equals DRUNKENWOLF
+    - agent.name -equals Adithya
   vmImage: ubuntu-latest
 
 steps:
